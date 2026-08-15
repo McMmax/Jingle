@@ -1,0 +1,14 @@
+[package]
+name = "jingle"
+version = "0.1.0"
+edition = "2021"
+description = "message key, template, and render library for the minemares stack"
+license = "MIT"
+
+[features]
+default = []
+dev = []
+
+[dependencies]
+thiserror = "1"
+smallvec = "1"
