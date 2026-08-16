@@ -30,4 +30,4 @@ assert_eq!(formatted, "§6Notch §7killed §cAlex §7with §eDiamond Sword");
 ---
 
 ## 📖 Canonical Specifications
-* **[`.bible/09-shared-libraries-and-apis`](file:///C:/Users/trapaholics/Documents/GitHub/.bible/09-shared-libraries-and-apis)**
+* **[`.bible/09-shared-libraries-and-apis`](.bible/09-shared-libraries-and-apis)**
