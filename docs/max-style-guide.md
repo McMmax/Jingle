@@ -272,7 +272,7 @@ CRUISER owns spawn, monitor, and reap of all child processes. Each child gets:
 
 ---
 
-## Rust — Internode (forked from Infrarust)
+## Rust — Internode (Custom Edge Platform)
 
 ### Naming
 
@@ -348,7 +348,7 @@ fn send_bolt_packet(pkt: &Packet) -> Result<()> {
 
 ### Crate Workspace Structure
 
-Internode follows Infrarust's multi-crate workspace layout. Protocol logic is isolated from proxy logic:
+Internode follows Internode's multi-crate workspace layout. Protocol logic is isolated from proxy logic:
 
 ```
 internode/
@@ -363,7 +363,7 @@ Each crate has one job. `internode_protocol` never imports `internode_core`. Cro
 
 ### Proxy Modes
 
-Internode inherits Infrarust's proxy mode model. Each mode has a different packet handling contract — make sure the mode is obvious at the call site:
+Internode inherits Internode's proxy mode model. Each mode has a different packet handling contract — make sure the mode is obvious at the call site:
 
 ```rust
 // mode determines how deep we go into the pipeline
